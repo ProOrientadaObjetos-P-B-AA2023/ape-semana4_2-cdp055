@@ -100,10 +100,11 @@
     }
     public class TestProfesor {
         public static void main(String[] args) {
-            Provincia provincia=new Provincia("Loja",44900);
-            Profesor profesor= new Profesor("Carlos","Piedra",3500,"1150067906",provincia);
+            Provincia provincia=new Provincia("Loja",449000);
+            Profesor profesor= new Profesor("Carlos","Piedra",5000,"1150067906",provincia);
             profesor.calcularSueldoTotal();
             System.out.println(profesor);
         }
+
     }
 
